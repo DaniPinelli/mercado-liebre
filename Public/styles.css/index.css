@@ -1,0 +1,47 @@
+:root {
+    --yellow:#EAC926;
+    --blue:#03264C;
+    --lightblue:#1259c3;
+    --darkgrey:#666;
+    --lightgrey:#ebebeb;
+    --green:#39b54a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+header {
+    background-color: var(--yellow);
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    background-color: var(--lightgrey);
+}
+
+.price {
+    font-size: 18px;
+}
+
+section{
+    background-color: var(--darkgrey);
+}
+
+
