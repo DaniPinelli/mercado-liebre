@@ -19,6 +19,9 @@ header {
 h3 {
     font-size: 24px;
     background-color: var(--lightgrey);
+    padding-bottom: 24px;
+    width: 100%;
+    
 }
 
 p {
