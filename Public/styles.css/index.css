@@ -9,39 +9,54 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--darkgrey);
+    }
+    
+header {
+    background-color: var(--yellow);
+}
+
+h3 {
+    font-size: 24px;
+    background-color: var(--lightgrey);
 }
 
 p {
     font-size: 12px;
 }
 
-h3 {
-    font-size: 24px;
+.truck {
+    color: var(--green);
 }
 
-header {
-    background-color: var(--yellow);
-}
-
-header ul li {
-    list-style-type: none;
-}
-
-header ul li a{
-    text-decoration: none;
-    color: #000;
-}
-
-main {
-    background-color: var(--lightgrey);
-}
-
-.price {
+#precio {
     font-size: 18px;
 }
 
-section{
-    background-color: var(--darkgrey);
+#descuento {
+    font-size: 16px;
+    color: var(--green);
 }
+
+#descripciones {
+    font-size: 16px;
+}
+
+#foot {
+    color: var(--lightblue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
