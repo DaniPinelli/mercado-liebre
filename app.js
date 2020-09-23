@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
     res.sendFile(routeFile);
 }); 
 
+app.get('/login', (req, res) => {
+    let routeFile = path.resolve('./Vistas/login.html');
+    res.sendFile(routeFile);
+}); 
+
 // Ruta para archivos
 app.get('*', (req, res) => { 
     if(req.url.includes('.')){

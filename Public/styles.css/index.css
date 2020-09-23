@@ -10,6 +10,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--darkgrey);
+    background-color: var(--lightgrey);
+    margin: 0;
+    padding: 0;
     }
     
 header {
@@ -27,15 +30,20 @@ p {
     font-size: 12px;
 }
 
+article {
+    background-color: white;
+    margin: 10px auto;
+}
+
 .truck {
     color: var(--green);
 }
 
-#precio {
+.precio {
     font-size: 18px;
 }
 
-#descuento {
+.descuento {
     font-size: 16px;
     color: var(--green);
 }
