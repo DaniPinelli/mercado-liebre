@@ -17,6 +17,14 @@ body {
     
 header {
     background-color: var(--yellow);
+    list-style-type: none;
+}
+ul li {
+    list-style: none;
+}
+
+a visited {
+    color: black;
 }
 
 h3 {

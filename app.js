@@ -12,8 +12,13 @@ app.get('/', (req, res) => {
     res.sendFile(routeFile);
 }); 
 
+app.get('/registrer', (req, res) => {
+    let routeFile = path.resolve('Vistas/registrer.html');
+    res.sendFile(routeFile);
+}); 
+
 app.get('/login', (req, res) => {
-    let routeFile = path.resolve('./Vistas/login.html');
+    let routeFile = path.resolve('Vistas/login.html');
     res.sendFile(routeFile);
 }); 
 

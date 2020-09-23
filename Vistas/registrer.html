@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer</title>
+    <link rel="stylesheet" href="/styles.css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Images/logo-ml.svg" alt="">
+        <h5>Lugar para poner barra de búsqueda</h5>
+        <h5><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h5>
+        <nav>
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/registrer">Creá tu cuenta</a><i class="fas fa-user-friends"></i></li>
+                <li><a href="/login">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="validar.php" method="post">
+            <p><input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"></p>
+            <p><input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario"></p>
+            <p><input type="email" name="correo" id="correo" placeholder="E-mail"></p>
+            <p><label for="fechaNacimiento">Fecha de nacimiento</label></p>
+            <p><input type="date" name="fecha" id="fechaNacimiento"></p> 
+            <p><input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"></p>
+            <p>Perfíl del usuario</p>
+            <p><input type="radio" name="comprador" id="comprador">Comprador
+            <input type="radio" name="vendedor" id="vendedor">Vendedor</p>
+            <p>Intereses</p>
+            <p class="campos" >
+                <input type="checkbox" name="electro">Electro
+                <input type="checkbox" name="fashion">Moda
+                <input type="checkbox" name="home">Hogar
+                <input type="checkbox" name="toys">Jugeteria
+                <input type="checkbox" name="life">Vida sana
+            </p>
+
+            <label class="lable-register" for="">Elige tu foto de usuario</label>
+            <p><input id="image" type="file" name="archive" accept=".jpg"></p>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+
+        </form>
+    </section>
+    <footer>
+        <div><i id="foot" class="fas fa-credit-card"></i></div>
+        <h4>Pagá con tarjeta o en efectivo</h4>
+        <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de
+        pago. ¡Y siempre es seguro!</p>
+        <div><i id="foot" class="fas fa-gift"></i></div>
+        <h4>Envío gratis desde los $2.500</h4>
+        <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+        productos. Es un beneficio de MercadoPuntos.</p>
+        <div><i id="foot" class="fas fa-user-shield"></i></div>
+        <h4>Seguridad, de principio a fin</h4>
+        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+        porque estás siempre prtegid@.</p>
+        <p>Copyright© 1999-2019 MercadoLiebre S.R.L.</p>
+    </footer>
+
+
+</body>
+</html>
