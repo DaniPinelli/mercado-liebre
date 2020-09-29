@@ -31,5 +31,5 @@ app.get('*', (req, res) => {
     res.sendFile('404 Not Found');
 })
 //http://localhost:3000/
-app.listen(3000, () => console.log('Server running ok on port 3000'));
+app.listen(3000, () => console.log('Server running on port 3000'));
 
